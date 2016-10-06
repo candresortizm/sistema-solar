@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body,html,#stars{
+  height: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+body{
+  background: radial-gradient(darkblue -100%, black); /* Standard syntax */
+  position: relative;
+}
+
+ul{
+  list-style: none;
+}
+
+#sun{
+  display: block;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(yellow 10%, red); /* Standard syntax */
+  border-radius: 50%;
+  box-shadow: 0 0 1px 1px yellow;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.planet {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ABC;
+  display: block;
+}
+
+.planets{
+  width: 1px;
+  height: 1px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%,-50%);
+}
+
+.planet:first-child {
+
+}
